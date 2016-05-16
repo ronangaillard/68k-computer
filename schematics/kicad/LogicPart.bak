@@ -37,12 +37,17 @@ LIBS:xc6slx9-tqg144
 LIBS:TXB0108-PW
 LIBS:tinkerforge
 LIBS:shardy
+LIBS:XC1654CT-ND
+LIBS:XC1654CT
+LIBS:ld1117
+LIBS:ncp1117
+LIBS:CS8900A-CQ3Z
 LIBS:68k computer-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -360,48 +365,6 @@ F 3 "" H 2500 3250 50  0000 C CNN
 	1    2500 3250
 	1    0    0    -1  
 $EndComp
-Text Label 5450 2050 0    60   ~ 0
-SS
-Text Label 5500 2150 0    60   ~ 0
-SCLK
-Text Label 5500 2250 0    60   ~ 0
-MOSI
-Text Label 5550 2350 0    60   ~ 0
-MISO
-Text Label 5400 2450 0    60   ~ 0
-D3
-Text Label 5400 2550 0    60   ~ 0
-D2
-Text Label 5450 2650 0    60   ~ 0
-D1
-Text Label 5500 2750 0    60   ~ 0
-D0
-Text Label 5500 2950 0    60   ~ 0
-DONE
-Text Label 5450 3250 0    60   ~ 0
-CCLK
-Text Label 5400 3350 0    60   ~ 0
-CS_FLASH
-Text Label 5450 3450 0    60   ~ 0
-AVR_RX
-Text Label 5500 3550 0    60   ~ 0
-AVR_TX
-Text Label 5550 3650 0    60   ~ 0
-ADC8
-Text Label 5550 3850 0    60   ~ 0
-ADC9
-Text Label 5450 4450 0    60   ~ 0
-ADC0
-Text Label 5450 4550 0    60   ~ 0
-ADC1
-Text Label 5500 4650 0    60   ~ 0
-ADC4
-Text Label 5500 4750 0    60   ~ 0
-ADC5
-Text Label 5550 4850 0    60   ~ 0
-ADC6
-Text Label 5550 4950 0    60   ~ 0
-ADC7
 $Comp
 L SST25VF020B U6
 U 1 1 5732A894
@@ -566,39 +529,39 @@ Connection ~ 2500 3350
 Wire Wire Line
 	2500 3800 2500 3900
 Wire Wire Line
-	5250 2050 5650 2050
+	5250 2050 5800 2050
 Wire Wire Line
-	5250 2150 5650 2150
+	5250 2150 5800 2150
 Wire Wire Line
-	5250 2250 5650 2250
+	5250 2250 5800 2250
 Wire Wire Line
-	5250 2350 5650 2350
+	5250 2350 5800 2350
 Wire Wire Line
-	5250 2450 5650 2450
+	5250 2450 5800 2450
 Wire Wire Line
-	5650 2550 5250 2550
+	5250 2550 5800 2550
 Wire Wire Line
-	5250 2650 5650 2650
+	5250 2650 5800 2650
 Wire Wire Line
-	5250 2750 5650 2750
+	5250 2750 5800 2750
 Wire Wire Line
-	5250 2950 5650 2950
+	5250 2950 5800 2950
 Wire Wire Line
 	5250 3050 5650 3050
 Wire Wire Line
-	5250 3250 5650 3250
+	5250 3250 5800 3250
 Wire Wire Line
-	5250 3350 5650 3350
+	5250 3350 5800 3350
 Wire Wire Line
-	5250 3450 5650 3450
+	5250 3450 5800 3450
 Wire Wire Line
-	5250 3550 5650 3550
+	5250 3550 5800 3550
 Wire Wire Line
-	5250 3650 5650 3650
+	5250 3650 5800 3650
 Wire Wire Line
 	5250 3750 5650 3750
 Wire Wire Line
-	5250 3850 5650 3850
+	5250 3850 5800 3850
 Wire Wire Line
 	5250 3950 5650 3950
 Wire Wire Line
@@ -606,17 +569,17 @@ Wire Wire Line
 Wire Wire Line
 	5250 4250 5650 4250
 Wire Wire Line
-	5250 4450 5650 4450
+	5250 4450 5800 4450
 Wire Wire Line
-	5250 4550 5650 4550
+	5250 4550 5800 4550
 Wire Wire Line
-	5250 4650 5650 4650
+	5250 4650 5800 4650
 Wire Wire Line
-	5250 4750 5650 4750
+	5250 4750 5800 4750
 Wire Wire Line
-	5250 4850 5650 4850
+	5250 4850 5800 4850
 Wire Wire Line
-	5250 4950 5650 4950
+	5250 4950 5800 4950
 Wire Wire Line
 	600  5000 1250 5000
 Wire Wire Line
@@ -837,10 +800,88 @@ F 3 "" H 3250 6550 50  0000 C CNN
 	1    3250 6550
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 7500 1900 2550 1600
-U 5732CE97
-F0 "FPGA" 60
-F1 "FPGA.sch" 60
-$EndSheet
+Text Label 5650 2050 2    60   ~ 0
+SS
+Text Label 5650 2150 2    60   ~ 0
+SCLK
+Text Label 5650 2250 2    60   ~ 0
+MOSI
+Text Label 5650 2350 2    60   ~ 0
+MISO
+Text Label 5650 2450 2    60   ~ 0
+D3
+Text Label 5650 2550 2    60   ~ 0
+D2
+Text Label 5650 2650 2    60   ~ 0
+D1
+Text Label 5650 2750 2    60   ~ 0
+D0
+Text Label 5650 2950 2    60   ~ 0
+DONE
+Text Label 5650 3250 2    60   ~ 0
+CCLK
+Text Label 5650 3350 2    60   ~ 0
+CS_FLASH
+Text Label 5650 3450 2    60   ~ 0
+AVR_RX
+Text Label 5650 3550 2    60   ~ 0
+AVR_TX
+Text Label 5650 3650 2    60   ~ 0
+ADC8
+Text Label 5650 3850 2    60   ~ 0
+ADC9
+Text Label 5650 4450 2    60   ~ 0
+ADC0
+Text Label 5650 4550 2    60   ~ 0
+ADC1
+Text Label 5650 4650 2    60   ~ 0
+ADC4
+Text Label 5650 4750 2    60   ~ 0
+ADC5
+Text Label 5650 4850 2    60   ~ 0
+ADC6
+Text Label 5650 4950 2    60   ~ 0
+ADC7
+Text HLabel 5800 2050 2    60   BiDi ~ 0
+SS
+Text HLabel 5800 2150 2    60   BiDi ~ 0
+SCLK
+Text HLabel 5800 2250 2    60   BiDi ~ 0
+MOSI
+Text HLabel 5800 2350 2    60   BiDi ~ 0
+MISO
+Text HLabel 5800 2450 2    60   BiDi ~ 0
+D3
+Text HLabel 5800 2550 2    60   BiDi ~ 0
+D2
+Text HLabel 5800 2650 2    60   BiDi ~ 0
+D1
+Text HLabel 5800 2750 2    60   BiDi ~ 0
+D0
+Text HLabel 5800 2950 2    60   BiDi ~ 0
+DONE
+Text HLabel 5800 3250 2    60   BiDi ~ 0
+CCLK
+Text HLabel 5800 3350 2    60   BiDi ~ 0
+CS_FLASH
+Text HLabel 5800 3450 2    60   BiDi ~ 0
+AVR_RX
+Text HLabel 5800 3550 2    60   BiDi ~ 0
+AVR_TX
+Text HLabel 5800 3650 2    60   BiDi ~ 0
+ADC8
+Text HLabel 5800 3850 2    60   BiDi ~ 0
+ADC9
+Text HLabel 5800 4450 2    60   BiDi ~ 0
+ADC0
+Text HLabel 5800 4550 2    60   BiDi ~ 0
+ADC1
+Text HLabel 5800 4650 2    60   BiDi ~ 0
+ADC4
+Text HLabel 5800 4750 2    60   BiDi ~ 0
+ADC5
+Text HLabel 5800 4850 2    60   BiDi ~ 0
+ADC6
+Text HLabel 5800 4950 2    60   BiDi ~ 0
+ADC7
 $EndSCHEMATC

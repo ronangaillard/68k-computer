@@ -37,17 +37,12 @@ LIBS:xc6slx9-tqg144
 LIBS:TXB0108-PW
 LIBS:tinkerforge
 LIBS:shardy
-LIBS:XC1654CT-ND
-LIBS:XC1654CT
-LIBS:ld1117
-LIBS:ncp1117
-LIBS:CS8900A-CQ3Z
 LIBS:68k computer-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 1 1
 Title ""
 Date ""
 Rev ""

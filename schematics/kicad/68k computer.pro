@@ -1,4 +1,4 @@
-update=Saturday, May 14, 2016 'PMt' 08:59:30 PM
+update=Sunday, May 15, 2016 'PMt' 10:28:03 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -77,3 +77,8 @@ LibName35=/Users/formlabs/Documents/Perso/MyComputer/xc6slx9-tqg144
 LibName36=/Users/formlabs/Documents/Perso/MyComputer/TXB0108-PW
 LibName37=/Users/formlabs/Documents/Perso/MyComputer/tinkerforge
 LibName38=/Users/formlabs/Documents/Perso/MyComputer/shardy
+LibName39=/Users/formlabs/Documents/Perso/MyComputer/XC1654CT-ND
+LibName40=/Users/formlabs/Documents/Perso/MyComputer/XC1654CT
+LibName41=/Users/formlabs/Documents/Perso/MyComputer/ld1117
+LibName42=/Users/formlabs/Documents/Perso/MyComputer/ncp1117
+LibName43=/Users/formlabs/Documents/Perso/MyComputer/CS8900A-CQ3Z

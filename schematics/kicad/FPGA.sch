@@ -445,4 +445,292 @@ Wire Wire Line
 	8850 5750 8250 5750
 Text Label 8250 5750 0    60   ~ 0
 SD_MISO
+Text HLabel 1100 1150 0    60   BiDi ~ 0
+D0
+Text HLabel 1100 1250 0    60   BiDi ~ 0
+D1
+Text HLabel 1100 1350 0    60   BiDi ~ 0
+D2
+Text HLabel 1100 1450 0    60   BiDi ~ 0
+D3
+Text HLabel 1100 1550 0    60   BiDi ~ 0
+D4
+Text HLabel 1100 1650 0    60   BiDi ~ 0
+D5
+Text HLabel 1100 1750 0    60   BiDi ~ 0
+D6
+Text HLabel 1100 1850 0    60   BiDi ~ 0
+D7
+Text HLabel 1100 1950 0    60   BiDi ~ 0
+D8
+Text HLabel 1100 2050 0    60   BiDi ~ 0
+D9
+Text HLabel 1100 2150 0    60   BiDi ~ 0
+D10
+Text HLabel 1100 2250 0    60   BiDi ~ 0
+D11
+Text HLabel 1100 2350 0    60   BiDi ~ 0
+D12
+Text HLabel 1100 2450 0    60   BiDi ~ 0
+D13
+Text HLabel 1100 2550 0    60   BiDi ~ 0
+D14
+Text HLabel 1100 2650 0    60   BiDi ~ 0
+D15
+Text HLabel 1100 2750 0    60   BiDi ~ 0
+A1
+Text HLabel 1100 2850 0    60   BiDi ~ 0
+A2
+Text HLabel 1100 2950 0    60   BiDi ~ 0
+A3
+Text HLabel 1100 3050 0    60   BiDi ~ 0
+A4
+Text HLabel 1100 3150 0    60   BiDi ~ 0
+A5
+Text HLabel 1100 3250 0    60   BiDi ~ 0
+A6
+Text HLabel 1100 3350 0    60   BiDi ~ 0
+A7
+Text HLabel 1100 3450 0    60   BiDi ~ 0
+A8
+Text HLabel 1100 4300 0    60   BiDi ~ 0
+A9
+Text HLabel 1100 4400 0    60   BiDi ~ 0
+A10
+Text HLabel 1100 4500 0    60   BiDi ~ 0
+A11
+Text HLabel 1100 4600 0    60   BiDi ~ 0
+A12
+Text HLabel 1100 4700 0    60   BiDi ~ 0
+A13
+Text HLabel 1100 4800 0    60   BiDi ~ 0
+A14
+Text HLabel 1100 4900 0    60   BiDi ~ 0
+A15
+Text HLabel 1100 5000 0    60   BiDi ~ 0
+A16
+Text HLabel 1100 5100 0    60   BiDi ~ 0
+A17
+Text HLabel 1100 5200 0    60   BiDi ~ 0
+A18
+Text HLabel 1100 5300 0    60   BiDi ~ 0
+A19
+Text HLabel 1100 5400 0    60   BiDi ~ 0
+A20
+Text HLabel 1100 5500 0    60   BiDi ~ 0
+A21
+Text HLabel 1100 5600 0    60   BiDi ~ 0
+A22
+Text HLabel 1100 5700 0    60   BiDi ~ 0
+A23
+Text HLabel 1100 5800 0    60   BiDi ~ 0
+CS_RAM_0
+Text HLabel 1100 5900 0    60   BiDi ~ 0
+CS_RAM_1
+Text HLabel 1100 6000 0    60   BiDi ~ 0
+CS_RAM_2
+Text HLabel 1100 6100 0    60   BiDi ~ 0
+CS_RAM_3
+Text HLabel 1100 6200 0    60   BiDi ~ 0
+AS
+Text HLabel 1100 6300 0    60   BiDi ~ 0
+RW
+Text HLabel 1100 6400 0    60   BiDi ~ 0
+LDS
+Text HLabel 1100 6500 0    60   BiDi ~ 0
+UDS
+Text HLabel 1100 6600 0    60   BiDi ~ 0
+DTACK
+Text HLabel 4400 4300 0    60   BiDi ~ 0
+BR
+Text HLabel 4400 4400 0    60   BiDi ~ 0
+BG
+Text HLabel 4400 4500 0    60   BiDi ~ 0
+BGACK
+Text HLabel 4400 4600 0    60   BiDi ~ 0
+IPL0
+Text HLabel 4400 4700 0    60   BiDi ~ 0
+IPL1
+Text HLabel 4400 4800 0    60   BiDi ~ 0
+IPL2
+Text HLabel 4400 4900 0    60   BiDi ~ 0
+BERR
+Text HLabel 4400 5000 0    60   BiDi ~ 0
+MODE
+Text HLabel 4400 5100 0    60   BiDi ~ 0
+RESET
+Text HLabel 4400 5200 0    60   BiDi ~ 0
+HALT
+Text HLabel 4400 5300 0    60   BiDi ~ 0
+E
+Text HLabel 4400 5400 0    60   BiDi ~ 0
+VMA
+Text HLabel 4400 5500 0    60   BiDi ~ 0
+VPA
+Text HLabel 4400 5600 0    60   BiDi ~ 0
+FC0
+Text HLabel 4400 5700 0    60   BiDi ~ 0
+FC1
+Text HLabel 4400 5800 0    60   BiDi ~ 0
+FC2
+Text HLabel 4400 5900 0    60   BiDi ~ 0
+68kCLK
+Text HLabel 4400 6000 0    60   BiDi ~ 0
+RAM_OE
+Text HLabel 4400 6100 0    60   BiDi ~ 0
+RAM_WE
+Text Label 4150 6200 0    60   ~ 0
+SD_CS
+Text Label 4150 6300 0    60   ~ 0
+SD_MOSI
+Text Label 4150 6400 0    60   ~ 0
+SD_CLOCK
+Text Label 4150 6500 0    60   ~ 0
+SD_MISO
+Text Label 4150 6600 0    60   ~ 0
+SD_CS
+Wire Wire Line
+	1100 4300 1200 4300
+Wire Wire Line
+	1100 4400 1200 4400
+Wire Wire Line
+	1100 4500 1200 4500
+Wire Wire Line
+	1100 4600 1200 4600
+Wire Wire Line
+	1100 4700 1200 4700
+Wire Wire Line
+	1100 4800 1200 4800
+Wire Wire Line
+	1100 4900 1200 4900
+Wire Wire Line
+	1100 5000 1200 5000
+Wire Wire Line
+	1100 5100 1200 5100
+Wire Wire Line
+	1100 5200 1200 5200
+Wire Wire Line
+	1100 5300 1200 5300
+Wire Wire Line
+	1100 5400 1200 5400
+Wire Wire Line
+	1100 5500 1200 5500
+Wire Wire Line
+	1100 5600 1200 5600
+Wire Wire Line
+	1100 5700 1200 5700
+Wire Wire Line
+	1100 5800 1200 5800
+Wire Wire Line
+	1100 5900 1200 5900
+Wire Wire Line
+	1100 6000 1200 6000
+Wire Wire Line
+	1100 6100 1200 6100
+Wire Wire Line
+	1100 6200 1200 6200
+Wire Wire Line
+	1100 6300 1200 6300
+Wire Wire Line
+	1100 6400 1200 6400
+Wire Wire Line
+	1100 6500 1200 6500
+Wire Wire Line
+	1100 6600 1200 6600
+Wire Wire Line
+	4400 4300 4550 4300
+Wire Wire Line
+	4400 4400 4550 4400
+Wire Wire Line
+	4400 4500 4550 4500
+Wire Wire Line
+	4400 4600 4550 4600
+Wire Wire Line
+	4400 4700 4550 4700
+Wire Wire Line
+	4400 4800 4550 4800
+Wire Wire Line
+	4400 4900 4550 4900
+Wire Wire Line
+	4400 5000 4550 5000
+Wire Wire Line
+	4400 5100 4550 5100
+Wire Wire Line
+	4400 5200 4550 5200
+Wire Wire Line
+	4400 5300 4550 5300
+Wire Wire Line
+	4400 5400 4550 5400
+Wire Wire Line
+	4400 5500 4550 5500
+Wire Wire Line
+	4400 5600 4550 5600
+Wire Wire Line
+	4400 5700 4550 5700
+Wire Wire Line
+	4400 5800 4550 5800
+Wire Wire Line
+	4400 5900 4550 5900
+Wire Wire Line
+	4400 6000 4550 6000
+Wire Wire Line
+	4400 6100 4550 6100
+Wire Wire Line
+	4150 6200 4550 6200
+Wire Wire Line
+	4150 6300 4550 6300
+Wire Wire Line
+	4150 6400 4550 6400
+Wire Wire Line
+	4150 6500 4550 6500
+Wire Wire Line
+	4150 6600 4550 6600
+Wire Wire Line
+	1100 1150 1200 1150
+Wire Wire Line
+	1100 1250 1200 1250
+Wire Wire Line
+	1100 1350 1200 1350
+Wire Wire Line
+	1100 1450 1200 1450
+Wire Wire Line
+	1100 1550 1200 1550
+Wire Wire Line
+	1100 1650 1200 1650
+Wire Wire Line
+	1100 1750 1200 1750
+Wire Wire Line
+	1100 1850 1200 1850
+Wire Wire Line
+	1100 1950 1200 1950
+Wire Wire Line
+	1100 2050 1200 2050
+Wire Wire Line
+	1100 2150 1200 2150
+Wire Wire Line
+	1100 2250 1200 2250
+Wire Wire Line
+	1100 2350 1200 2350
+Wire Wire Line
+	1100 2450 1200 2450
+Wire Wire Line
+	1100 2550 1200 2550
+Wire Wire Line
+	1100 2650 1200 2650
+Wire Wire Line
+	1100 2750 1200 2750
+Wire Wire Line
+	1100 2850 1200 2850
+Wire Wire Line
+	1100 2950 1200 2950
+Wire Wire Line
+	1100 3050 1200 3050
+Wire Wire Line
+	1100 3150 1200 3150
+Wire Wire Line
+	1100 3250 1200 3250
+Wire Wire Line
+	1100 3350 1200 3350
+Wire Wire Line
+	1100 3450 1200 3450
 $EndSCHEMATC
